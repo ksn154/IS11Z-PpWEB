@@ -43,7 +43,7 @@ a:hover{
 .tag{
     font-weight: 800;
     font-size: 24px;
-    line-height: 39px;
+    line-height: 29px;
     margin: 0 0 2px 0;
     text-align: center;
     color: var(--bolotny);
@@ -51,8 +51,8 @@ a:hover{
 
 .heading1{
     font-weight: 300;
-    font-size: 48px;
-    line-height: 58px;
+    font-size: 40px;
+    line-height: 48px;
     margin: 0 0 2px 0;
     text-align: center;
     color: var(--black);
@@ -90,11 +90,21 @@ a:hover{
 
 .input{
     font-weight: 300;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 29px;
     background: var(--turquoise);
     border-radius: 30px;
     border: none;
+}
+
+.left{
+    position: fixed;
+    left: 0;
+}
+
+.right{
+    position: fixed;
+    right: 0;
 }
 
 /* Layout */
