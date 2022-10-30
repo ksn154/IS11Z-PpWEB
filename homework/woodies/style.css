@@ -65,19 +65,37 @@ nav ul li.button a{
     margin-left: 8px;
 }
 
-hr{
-    width: 316px;
-    height: 0px;
-    left: 357px;
-    top: 49px;
-    border: 1px solid #000000;
-}
-
 header{
     width: 1000px;
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
+}
+
+header div span{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 49px;
+    color: #3E3F43;
+    margin-bottom: 16px;
+}
+
+header div h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 98px;
+    color: #313235;
+    margin-bottom: 16px;
+}
+
+header div button{
+    background: #DAA520;
+    border-radius: 4px;
+    border: none;
+    color: #ffffff;
+    padding: 14px 24px;
 }
 
 section header{
@@ -108,4 +126,8 @@ section header p{
 section header img{
     width: 30px;
     margin-right: 8px;
+}
+
+section header hr{
+    border: 1px solid #000000;
 }
