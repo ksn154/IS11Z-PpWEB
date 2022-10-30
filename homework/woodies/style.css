@@ -199,3 +199,69 @@ section header hr{
     /* left: 396px; */
     /* top: 3709px; */
 }
+
+#bowls{
+    width: 280px;
+    height: 400px;
+    /* left: 100px; */
+    top: 138px;
+    background: #F7DEA6;
+    z-index: -1;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+
+#desk{
+    width: 280px;
+    height: 400px;
+    left: 0px;
+    top: 0px;
+    background: #F9BDBD;
+    z-index: -1;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+
+#chair{
+    width: 280px;
+    height: 400px;
+    left: 336px;
+    top: 0px;
+    background: #F7DEA6;
+    z-index: -1;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+
+#kitchenware{
+    width: 280px;
+    height: 400px;
+    left: 672px;
+    top: 0px;
+    background: #A8DCEC;
+    z-index: -1;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+
+#bookshelf{
+    width: 280px;
+    height: 400px;
+    left: 0px;
+    top: 0px;
+    background: #F9BDBD;
+    z-index: -1;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+
+#electronics{
+    width: 280px;
+    height: 400px;
+    left: 336px;
+    top: 0px;
+    background: #F7DEA6;
+    z-index: -1;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
