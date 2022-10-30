@@ -117,7 +117,7 @@ header div button{
     right: 0;
     top: 0px;
     background: #F9BDBD;
-    z-index: -1;
+    z-index: -2;
     border-bottom-left-radius: 100px;
 }
 
@@ -152,6 +152,7 @@ section header p{
     font-size: 72px;
     line-height: 98px;
     text-align: right;
+    text-transform: uppercase;
     color: rgba(34, 34, 34, 0.1);
 }
 
@@ -172,6 +173,44 @@ section header hr{
     border: 1px solid #000000;
 }
 
+section div article{
+    display: flex;
+    width: 1152px;
+    margin: 0 auto;
+    top: 0px;
+}
+
+span{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 49px;
+    color: #3E3F43;
+}
+
+p{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    color: #000000;
+}
+
+#fl2{
+    position: relative;
+    width: 382px;
+    height: 382px;
+    left: -68px;
+    top: 392px;
+}
+
+#bowls{
+    width: 388px;
+    height: 306px;
+    left: 138px;
+    top: 220px;
+}
+
 #first{
     width: 316px;
     height: 0px;
@@ -180,7 +219,7 @@ section header hr{
 }
 
 #second{
-    width: 165px;
+    width: 155px;
     height: 0px;
     /* left: 408px; */
     /* top: 2039px; */
@@ -198,17 +237,6 @@ section header hr{
     height: 0px;
     /* left: 396px; */
     /* top: 3709px; */
-}
-
-#bowls{
-    width: 280px;
-    height: 400px;
-    /* left: 100px; */
-    top: 138px;
-    background: #F7DEA6;
-    z-index: -1;
-    border-bottom-left-radius: 100px;
-    border-top-right-radius: 100px;
 }
 
 #desk{
