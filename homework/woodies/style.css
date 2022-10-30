@@ -13,6 +13,11 @@ nav ul{
     height: 40px;
 }
 
+nav ul li :hover{
+    transition: .2s;
+    color: #DAA520;
+}
+
 nav ul li a{
     font-style: normal;
     font-weight: 400;
