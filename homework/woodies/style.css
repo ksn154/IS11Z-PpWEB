@@ -64,3 +64,48 @@ nav ul li.button a{
     color: #3E3F43;
     margin-left: 8px;
 }
+
+hr{
+    width: 316px;
+    height: 0px;
+    left: 357px;
+    top: 49px;
+    border: 1px solid #000000;
+}
+
+header{
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+section header{
+    width: 952px;
+    height: 98px;
+    left: 100px;
+    top: 0px;
+    align-items: center;
+}
+
+section header div{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+    color: #3E3F43;
+}
+
+section header p{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 98px;
+    text-align: right;
+    color: rgba(34, 34, 34, 0.1);
+}
+
+section header img{
+    width: 30px;
+    margin-right: 8px;
+}
