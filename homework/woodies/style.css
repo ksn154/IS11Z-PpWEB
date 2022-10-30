@@ -150,6 +150,42 @@ section header img{
     margin-right: 8px;
 }
 
+hr{
+    width: 708px;
+    height: 0px;
+    left: 108px;
+    top: 4478px;
+    border: 1px solid #C4C4C4;
+}
+
 section header hr{
     border: 1px solid #000000;
+}
+
+#first{
+    width: 316px;
+    height: 0px;
+    /* left: 357px; */
+    /* top: 49px; */
+}
+
+#second{
+    width: 165px;
+    height: 0px;
+    /* left: 408px; */
+    /* top: 2039px; */
+}
+
+#third{
+    width: 212px;
+    height: 0px;
+    /* left: 396px; */
+    /* top: 2612px; */
+}
+
+#fourth{
+    width: 240px;
+    height: 0px;
+    /* left: 396px; */
+    /* top: 3709px; */
 }
