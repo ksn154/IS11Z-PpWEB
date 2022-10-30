@@ -28,13 +28,16 @@ nav ul li :hover{
     color: #DAA520;
 }
 
+a{
+    text-decoration: none;
+}
+
 nav ul li a{
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 22px;
     color: rgba(34, 34, 34, 0.75);
-    text-decoration: none;
 }
 
 nav ul li.button a{
@@ -63,6 +66,13 @@ nav ul li.button a{
     letter-spacing: 0.25em;
     color: #3E3F43;
     margin-left: 8px;
+}
+
+#table{
+    position: relative;
+    width: 568px;
+    height: 577px;
+    left: 80px;
 }
 
 header{
