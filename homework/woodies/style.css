@@ -66,10 +66,11 @@ nav ul li.button a{
 }
 
 header{
-    width: 1000px;
-    margin: 0 auto;
+    width: 1100px;
+    margin: auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header div span{
@@ -96,6 +97,25 @@ header div button{
     border: none;
     color: #ffffff;
     padding: 14px 24px;
+}
+
+#rectangle{
+    position: absolute;
+    width: 370px;
+    height: 800px;
+    right: 0;
+    top: 0px;
+    background: #F9BDBD;
+    z-index: -1;
+    border-bottom-left-radius: 100px;
+}
+
+#flower{
+    position: absolute;
+    width: 382px;
+    left: 692px;
+    top: 400px;
+    z-index: -1;
 }
 
 section header{
