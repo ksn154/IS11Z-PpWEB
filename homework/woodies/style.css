@@ -134,8 +134,8 @@ section header{
     height: 98px;
     left: 100px;
     top: 0px;
+    bottom: 40px;
     align-items: center;
-    margin-bottom: 0px;
 }
 
 section header div{
@@ -178,6 +178,8 @@ section div article{
     width: 1152px;
     margin: 0 auto;
     top: 0px;
+    align-items: center;
+    margin-bottom: 100px;
 }
 
 span{
@@ -197,11 +199,24 @@ p{
 }
 
 #fl2{
-    position: relative;
+    position: absolute;
     width: 382px;
     height: 382px;
     left: -68px;
-    top: 392px;
+    top: 1352px;
+    z-index: -2;
+}
+
+#rectg2{
+    position: absolute;
+    width: 280px;
+    height: 400px;
+    left: 100px;
+    top: 1038px;
+    z-index: -1;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+    background: #F7DEA6;
 }
 
 #bowls{
