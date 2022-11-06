@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    width: 1152px;
+    margin: 0 auto;
+}
+
+nav{
+    display: flex;
+    margin-bottom: 60px;
+    align-items: center;
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+}
+
+#logo img{
+    width: 37px;
+    height: 45px;
+    left: 166px;
+    top: 99px;
+}
+
+#logo figcaption{
+    margin-left: 14px;
+    width: 105px;
+    height: 53px;
+    left: 217.14px;
+    top: 95px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 52px;
+    color: #58A9A5;
+}
+
+.navigation{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 150px;
+    width: 100%;
+}
+
+.navigation li a{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 38px;
+    color: #404242;
+    text-decoration: none;
+}
+
+.navigation li :hover{
+    transition: .2s;
+    font-weight: 700;
+    color: #58A9A5;
+}
+
+.navigation li.button a{
+    background: #58A9A5;
+    border-radius: 15px;
+    text-align: center;
+    padding: 9px 36px;
+    font-weight: 500;
+    line-height: 38px;
+    color: #FFFFFF;
+}
+
+.head{
+    display: flex;
+    margin-bottom: 90px;
+}
+
+.head div h1{
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 85px;
+    color: #1C2323;
+}
+
+.head div p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    color: #404242;    
+}
+
+.head div button{
+    width: 170px;
+    height: 50px;
+    border-style: none;
+    background: #58A9A5;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 38px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+#house{
+    position: absolute;
+    width: 503px;
+    height: 462px;
+    left: 790px;
+    top: 130px;
+    background: #CCF0E6;
+    border-radius: 120px;
+    z-index: -1;
+}
+
+.head img{
+    width: 453px;
+}
+
+section{
+    margin-bottom: 90px;
+}
+
+.names{
+    margin-bottom: 50px;
+}
+
+.names h1{
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 35px;
+    text-align: center;
+    color: #1C2323;
+}
+
+.names p{
+    width: 300px;
+    height: 70px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    text-align: center;
+    color: #404242;
+    margin: 0 auto;
+}
+
+.blok{
+    display: flex;
+    margin-bottom: 60px;
+}
+
+.blok img{
+    width: 883px;
+    height: 260px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+#circle1{
+    position: absolute;
+    width: 108px;
+    height: 108px;
+    left: 840px;
+    top: 1005px;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 65px;
+    z-index: 1;
+}
+
+#circle2{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 854px;
+    top: 1019px;
+    background: #FFFFFF;
+    border-radius: 65px;
+    z-index: 2;
+}
+
+#play{
+    position: absolute;
+    width: 40px;
+    height: 50px;
+    left: 878px;
+    top: 1032px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+#element{
+    position: absolute;
+    width: 549px;
+    height: 260px;
+    left: 749px;
+    top: 880px;
+    background: #CCF0E6;
+    border-radius: 0px 10px 10px 0px;
+    z-index: -1;
+}
+
+.lett{
+    width: 308px;
+    padding-left: 80px;
+    padding-top: 50px;
+}
+
+.lett p{
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 30px;
+    color: #486958;
+}
+
+.lett span{
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 30px;
+    color: #486958;
+}
