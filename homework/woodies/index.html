@@ -17,7 +17,7 @@
             <figcaption>WOODIES</figcaption>
         </figure>
 
-        <ul>
+        <ul class="navigation">
             <li><a href="#">Home</a></li>
             <li><a href="#">About us</a></li>
             <li><a href="#">How it works</a></li>
@@ -70,19 +70,31 @@
             <hr id="second">
             <p>How it works</p>
         </header>
-        <div>
-            <article>
-                <img src="images/computer.svg" alt="computer">
-                <div>Choose Design</div>
-                <img src="images/ruler.svg" alt="ruler">
-                <div>Area measuring</div>
-                <img src="images/cost.svg" alt="cost">
-                <div>Budgeting</div>
-                <img src="images/carpenter.svg" alt="carpenter">
-                <div>Production</div>
+        <div class="form">
+            <article class="customs">
+                <div class="group">
+                    <img src="images/computer.svg" alt="computer">
+                    <div>Choose Design</div>
+                </div>
+                <div class="group">
+                    <img src="images/ruler.svg" alt="ruler">
+                    <div>Area measuring</div>
+                </div>
+                <div class="group">
+                    <img src="images/cost.svg" alt="cost">
+                    <div>Budgeting</div>
+                </div>
+                <div class="group">
+                    <img src="images/carpenter.svg" alt="carpenter">
+                    <div>Production</div>
+                </div>
             </article>
-            <div>
-                <button>Get Personalized Now</button>
+            <p class="number one">1</p>
+            <p class="number two">2</p>
+            <p class="number tree">3</p>
+            <p class="number four">4</p>
+            <div class="btn">
+                <button class="but">Get Personalized Now</button>
             </div>
         </div>
     </section>
@@ -94,36 +106,50 @@
             <hr id="third">
             <p>Categories</p>
         </header>
-        <div>
-            <article>
-                <div id="desk"></div>
-                <p>Desk</p>
+        <div class="forms">
+            <article class="article">
                 <img src="images/furniture.png" alt="table">
-                <div>Shop Now</div>
+                <div>
+                <div id="desk"></div>
+                <p id="ds">Desk</p>
+                <div class="knopka" id="sh1">Shop Now</div>
+                </div>
             </article>
-            <article>
-                <div id="chair"></div>
-                <p>Chair</p>
+
+            <article class="article">
                 <img src="images/chair.png" alt="chair">
-                <div>Shop Now</div>
+                <div>
+                <div id="chair"></div>
+                <p id="ds">Chair</p>
+                <div class="knopka" id="sh2">Shop Now</div>
+                </div>
             </article>
-            <article>
-                <div id="kitchenware"></div>
-                <p>Kitchenware</p>
+
+            <article class="article">
                 <img src="images/plates.png" alt="plates">
-                <div>Shop Now</div>
+                <div>
+                <div id="kitchenware"></div>
+                <p id="ds">Kitchenware</p>
+                <div class="knopka" id="sh3">Shop Now</div>
+                </div>
             </article>
-            <article>
-                <div id="bookshelf"></div>
-                <p>Book Shelf</p>
+
+            <article class="article">
                 <img src="images/bookcase.png" alt="bookcase">
-                <div>Shop Now</div>
+                <div>
+                <div id="bookshelf"></div>
+                <p id="el">Book Shelf</p>
+                <div class="knopka" id="sh4">Shop Now</div>
+                </div>
             </article>
-            <article>
-                <div id="electronics"></div>
-                <p>Electronics</p>
+
+            <article class="article">
                 <img src="images/radio.png" alt="radio">
-                <div>Shop Now</div>
+                <div>
+                <div id="electronics"></div>
+                <p id="el">Electronics</p>
+                <div class="knopka" id="sh5">Shop Now</div>
+                </div>
             </article>
         </div>
     </section>
@@ -135,69 +161,127 @@
             <hr id="fourth">
             <p>Testimony</p>
         </header>
-        <div>
-            <img src="images/bedroom.png" alt="bedroom">
-            <img src="images/breakfast.png" alt="breakfast">
+        <div class="fig">
+            <div class="cmt">
+            <img class="kartina" src="images/bedroom.png" alt="bedroom">
+            <img class="kartina" src="images/breakfast.png" alt="breakfast">
             <article>
-                <div>Stars</div>
-                <div>My experience with WOODIES is a complete success, from customed furniture, range of product, modern design, purchasing experience, the delivery and newsletter. Litterally everything is great. Thank you!</div>
-                <div>User picture</div>
-                <p>Sandra Dewi</p>
-                <p>Jakarta Selatan</p>
-            </article>
-            <div>Previous</div>
-            <div>Next</div>
-            <div>Pages</div>
+                <div class="comment">
+                    <img id="star" src="images/stars.png" alt="stars">
+                    <p id="com">My experience with WOODIES is a complete success, from customed furniture, range of product, modern design, purchasing experience, the delivery and newsletter. Litterally everything is great. Thank you!</p>
+                    <figure id="user">
+                        <img id="uspic" src="images/uspic.png" alt="user picture">
+                        <figcaption>Sandra Dewi<br>Jakarta Selatan</figcaption>
+                    </figure></div>
+                </div>
+            </article> 
+            </div>
+            <div id="arrow">  
+                <ul class="direction">
+                    <li>
+                        <img src="images/Arrow 2.svg">
+                        <a id="prev" href="#">Previous</a>
+                    </li>
+                    <li>
+                        <img src="images/Arrow 1.svg">
+                        <a id="next" href="#">Next</a>
+                    </li>
+                </ul>
+                <img id="blk" src="images/bloks.png" alt="pages">
+            </div>
         </div>
     </section>
 
-    <section>
-        <div>Subscribe to our newsletter</div>
-        <div>A monthly digest of the new WOODIES products, hot offers, and resources.</div>
-        <div>
-            <input type="email">
-            <input type="submit">
+    <section class="subscr">
+        <div id="gray"></div>
+        <img id="photo" src="images/photo.png" alt="photo">
+        <div><strong>Subscribe to our newsletter</strong> <br>A monthly digest of the new WOODIES products, hot offers, and resources.</div>
+        <div class="find">
+            <input type="email" placeholder="Your email address">
+            <button type="submit"></button>
         </div>
     </section>
     
     <hr>
 
     <section>
-        <div>
-            <div>
-                <img src="images/logo.svg" alt="logo">
-                <figcaption>WOODIES</figcaption>
-            </div>
-            <a href="(012)8967453">(012) 8967453</a>
-            <a href="#">woodies@gmail.com</a>
-            <a href="#">Jakarta, Indonesia</a>
+        <div id="grad"></div>
+        <div class="links">
+        <ul>
+            <li>
+                <figure id="logo">
+                    <img src="images/logo.svg" alt="logo">
+                    <figcaption>WOODIES</figcaption>
+                </figure>
+            </li>
+            <li>
+                <a href="(012)8967453">(012) 8967453</a>
+            </li>
+            <li>
+                <a href="#">woodies@gmail.com</a>
+            </li>
+            <li>
+                <a href="#">Jakarta, Indonesia</a>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <h4>Product</h4>
+            </li>
+            <li>
+                <a href="#">Furnituries</a>
+            </li>
+            <li>
+                <a href="#">Packages</a>
+            </li>
+            <li>
+                <a href="#">Services</a>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <h4>Resources</h4>
+            </li>
+            <li>
+                <a href="#">Blog</a>
+            </li>
+            <li>
+                <a href="#">FAQs</a>
+            </li>
+            <li>
+                <a href="#">Contact Us</a>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <h4>Company</h4>
+            </li>
+            <li>
+                <a href="#">About Us</a>
+            </li>
+            <li>
+                <a href="#">Jobs</a>
+            </li>
+            <li>
+                <a href="#">Our Team</a>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <h4>Follow us</h4>
+            </li>
+            <li>
+                <a href="#">Facebook</a>
+            </li>
+            <li>
+                <a href="#">Instagram</a>
+            </li>
+            <li>
+                <a href="#">Twitter</a>
+            </li>
+        </ul>
         </div>
-        <div>
-            <h4>Product</h4>
-            <a href="#">Furnituries</a>
-            <a href="#">Packages</a>
-            <a href="#">Services</a>
-        </div>
-        <div>
-            <h4>Resources</h4>
-            <a href="#">Blog</a>
-            <a href="#">FAQs</a>
-            <a href="#">Contact Us</a>
-        </div>
-        <div>
-            <h4>Company</h4>
-            <a href="#">About Us</a>
-            <a href="#">Jobs</a>
-            <a href="#">Our Team</a>
-        </div>
-        <div>
-            <h4>Follow us</h4>
-            <a href="#">Facebook</a>
-            <a href="#">Instagram</a>
-            <a href="#">Twitter</a>
-        </div>
-        <img src="images/photo.png" alt="photo">
-        <div>© 2020 WOODIES</div>
+        <div id="woodies">© 2020 WOODIES</div>
     </section>
 </body>
 </html>
