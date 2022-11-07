@@ -266,6 +266,13 @@ p{
     padding-bottom: 35px;
 }
 
+.numbers{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
 .number{
     font-style: normal;
     font-weight: 600;
@@ -273,39 +280,34 @@ p{
     line-height: 131px;
     text-align: center;
     color: rgba(249, 189, 189, 0.25);
-    z-index: -1;
 }
 
 .one{
     position: absolute;
     width: 58px;
     height: 131px;
-    left: 117px;
-    top: 2100px;
+    margin-right: 150px;
 }
 
 .two{
     position: absolute;
     width: 58px;
     height: 131px;
-    left: 447px;
-    top: 2100px;
+    margin-right: 130px;
 }
 
 .tree{
     position: absolute;
     width: 58px;
     height: 131px;
-    left: 746px;
-    top: 2100px;
+    margin-right: 150px;
 }
 
 .four{
     position: absolute;
     width: 58px;
     height: 131px;
-    left: 1004px;
-    top: 2100px;
+    margin-right: 150px;
 }
 
 #first{
@@ -390,6 +392,8 @@ p{
     width: 280px;
     height: 400px;
     justify-content: center;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
 
 .knopka{
@@ -400,6 +404,14 @@ p{
     border: 1px solid #3E3F43;
     border-radius: 4px;
     padding: 8px 19px;
+    margin-right: 15px;
+    margin-bottom: 15px
+}
+
+.imag{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .forms{
@@ -428,35 +440,12 @@ p{
 
 #ds{
     top: 2840px;
+    margin-left: -70px;
 }
 
 #el{
     top: 3340px;
-}
-
-#sh1{
-    top: 3190px;
-    left: 300px;
-}
-
-#sh2{
-    top: 3190px;
-    left: 685px;
-}
-
-#sh3{
-    top: 3190px;
-    left: 1070px;
-}
-
-#sh4{
-    top: 3690px;
-    left: 300px;
-}
-
-#sh5{
-    top: 3690px;
-    left: 685px;
+    margin-left: -70px;
 }
 
 .kartina{
@@ -531,9 +520,8 @@ p{
     position: absolute;
     display: grid;
     grid-template-rows: auto auto;
-    margin-right: 200px;
-    top: 4350px;
-    left: 740px; 
+    width: 381px;
+    justify-content: end;
 }
 
 #blk{
@@ -641,7 +629,7 @@ p{
 
 #grad{
     position: absolute;
-    width: 1400px;
+    width: 100%;
     height: 174px;
     left: 0px;
     top: 4550px;
@@ -658,7 +646,7 @@ p{
 
 #gray{
     position: absolute;
-    width: 1400px;
+    width: 100%;
     height: 355px;
     background: #f1f1f1;
     left: 0;
