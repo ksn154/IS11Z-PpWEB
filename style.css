@@ -8,6 +8,9 @@ body{
     margin: 26px;
     margin-left: auto;
     margin-right: auto;
+    max-width: 1200px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .main-class{
@@ -129,6 +132,7 @@ body{
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     text-align: center;
+    margin-bottom: 20px;
 }
     
     .div1 { grid-area: 1 / 1 / 2 / 2; }
@@ -199,6 +203,32 @@ body{
 .green{
     background-color: #25975A;
     border: solid 1px white;
+    color: #ffffff;
+}
+
+.green:hover{
+    background-color: bisque;
+    color: #25975A;
+}
+
+.white{
+    background-color: #ffffff;
+    border: solid 1px #cecece;
+}
+
+.white:hover{
+    background-color: bisque;
+}
+
+.curs{
+    display: flex;
+    color: #ffffff;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.student{
+    display: flex;
 }
 
 .student img{
