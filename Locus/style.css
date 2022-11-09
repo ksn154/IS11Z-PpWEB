@@ -105,10 +105,8 @@ nav{
 
 #house{
     position: absolute;
-    width: 503px;
+    width: 483px;
     height: 462px;
-    left: 790px;
-    top: 130px;
     background: #CCF0E6;
     border-radius: 120px;
     z-index: -1;
@@ -150,69 +148,74 @@ section{
     margin-bottom: 60px;
 }
 
-.blok img{
-    width: 883px;
-    height: 260px;
+.blok figure{
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.blok figure img{
+    width: 703px;
+    height: 200px;
     border-radius: 10px 0px 0px 10px;
 }
 
 #circle1{
     position: absolute;
-    width: 108px;
-    height: 108px;
-    left: 840px;
-    top: 1005px;
+    width: 90px;
+    height: 90px;
     background: rgba(255, 255, 255, 0.4);
     border-radius: 65px;
     z-index: 1;
+    margin-top: 70px;
+    margin-left: 660px;
 }
 
 #circle2{
     position: absolute;
-    width: 80px;
-    height: 80px;
-    left: 854px;
-    top: 1019px;
+    width: 70px;
+    height: 70px;
     background: #FFFFFF;
     border-radius: 65px;
     z-index: 2;
+    margin-top: 70px;
+    margin-left: 670px;
 }
 
 #play{
     position: absolute;
-    width: 40px;
-    height: 50px;
-    left: 878px;
-    top: 1032px;
+    width: 30px;
+    height: 40px;
     z-index: 2;
     cursor: pointer;
+    margin-top: 35px;
+    margin-left: 693px;
 }
 
 #element{
     position: absolute;
     width: 549px;
-    height: 260px;
-    left: 749px;
-    top: 880px;
+    height: 200px;
     background: #CCF0E6;
     border-radius: 0px 10px 10px 0px;
     z-index: -1;
+    margin-left: 535px;
 }
 
-.lett{
+.blok_video{
     width: 308px;
-    padding-left: 80px;
-    padding-top: 50px;
+    padding-left: 60px;
+    padding-top: 20px;
 }
 
-.lett p{
+.blok_video p{
     font-weight: 500;
     font-size: 15px;
     line-height: 30px;
     color: #486958;
 }
 
-.lett span{
+.blok_video span{
     font-weight: 700;
     font-size: 15px;
     line-height: 30px;
