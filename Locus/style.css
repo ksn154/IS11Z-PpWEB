@@ -254,42 +254,6 @@ section{
     color: #486958;    
 }
 
-.projects{
-    display: flex;
-    margin-bottom: 60px;
-    justify-content: space-between;
-    margin-top: 70px;
-}
-
-.projects div{
-    width: 350px;
-}
-
-.projects span{
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 50px;
-    color: #58A9A5;
-}
-
-.projects p{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 30px;
-    color: #486958;    
-}
-
-.projects img{
-    width: 350px;
-}
-
-#line{
-    width: 135px;
-    border: 2px solid #58A9A5;
-}
-
 .signature{
     display: flex;
     align-items: center;
@@ -427,4 +391,40 @@ input{
     font-size: 15px;
     line-height: 28px;
     color: #FFFFFF;
+}
+
+.projects{
+    display: flex;
+    margin-bottom: 60px;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.projects div{
+    width: 350px;
+}
+
+.projects span{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 50px;
+    color: #58A9A5;
+}
+
+.projects p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #486958;    
+}
+
+.projects img{
+    width: 350px;
+}
+
+#line{
+    width: 135px;
+    border: 2px solid #58A9A5;
 }
