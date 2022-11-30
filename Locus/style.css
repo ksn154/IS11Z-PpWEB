@@ -380,6 +380,10 @@ input{
     margin-bottom: 10px;
 }
 
+input:focus{
+    outline: none;
+}
+
 .mail button{
     width: 171px;
     height: 50px;
@@ -486,6 +490,7 @@ input{
 #register{
     display: flex;
     justify-content: center;
+    margin-top: 100px;
 }
 
 .login{
@@ -495,7 +500,7 @@ input{
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    width: 60%;
+    width: 40%;
     border-radius: 10px;
 }
 
@@ -512,12 +517,21 @@ input{
     color: #FFFFFF;
 }
 
+.login form{
+    width: 450px
+}
+
 .login label{
     font-size: 20px;
 }
 
 .login input{
     background-color: #CCF0E6;
+    width: 100%;
+}
+
+.login input:focus{
+    outline: none;
 }
 
 #sing_image_first{
