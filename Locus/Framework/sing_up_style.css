@@ -2,11 +2,9 @@
 
 body{
     font-family: 'Poppins', sans-serif;
-    width: 1152px;
-    margin: 0 auto;
 }
 
-.col-1{
+.logo{
     display: flex;
     width: 230px;
     color: #58A9A5;
@@ -15,4 +13,62 @@ body{
     line-height: 85px;
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+.login{
+    padding: 40px;
+    border-style: none;
+    background-color: #CCF0E6;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
+    border-radius: 10px;
+}
+
+form{
+    width: 450px;
+}
+
+label{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 28px;
+    color: #486958;
+}
+
+input{
+    background-color: #CCF0E6;
+    width: 100%;
+    border-style: none;
+    border-bottom: 1px solid #486958;
+    margin-bottom: 10px;
+}
+
+input:focus{
+    outline: none;
+}
+
+#image_first{
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 250px;
+}
+
+#image_second{
+    position: absolute;
+    top: 100px;
+    right: 0;
+    width: 270px;
+}
+
+.btn{
+    margin-top: 5px;
+    width: 140px;
+    background: #58A9A5;
+    border-radius: 15px;
+    text-align: center;
+    padding: 10px 36px;
 }

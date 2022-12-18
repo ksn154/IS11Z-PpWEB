@@ -12,28 +12,30 @@
 </head>
 <body>
     <div class="row justify-content-center">
-        <div class="col-1">L<img src="images/logo.svg">cus</div>
+        <div class="col-1 logo">L<img src="images/logo.svg">cus</div>
     </div>
-    <section>
-        <div>
-            <form>
-                <div>
-                    <label for="email">Email address</label><br>
-                    <input type="email">
-                </div>
-                <div>
-                    <label for="password">Password</label><br>
-                    <input type="password">
-                </div>
-            </form>
-            <a href="index.html"><button>Sing up</button></a>
-        </div>
-    </section>
-    <figure>
-        <img src="images/houses_left.png" alt="houses">
-    </figure>
-    <figure>
-        <img src="images/houses_right.png" alt="houses">
-    </figure>
+    <div class="row">
+        <figure class="col align-self-start">
+            <img id="image_first" src="images/houses_left.png" alt="houses">
+        </figure>
+        <section class="col align-self-center">
+            <div class="login">
+                <form>
+                    <div>
+                        <label for="email">Email address</label><br>
+                        <input type="email">
+                    </div>
+                    <div>
+                        <label for="password">Password</label><br>
+                        <input type="password">
+                    </div>
+                </form>
+                <a href="index.html"><button class="btn text-white">Sing up</button></a>
+            </div>
+        </section>
+        <figure class="col align-self-end">
+            <img id="image_second" src="images/houses_right.png" alt="houses">
+        </figure>
+    </div>
 </body>
 </html>
