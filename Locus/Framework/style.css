@@ -14,11 +14,9 @@ body{
 
 .logo img{
     width: 27px;
-    height: 35px;
 }
 
 .logo figcaption{
-    margin-left: 14px;
     font-weight: 800;
     font-size: 25px;
     line-height: 52px;
@@ -27,10 +25,6 @@ body{
 
 .navbar-nav{
     flex-direction: row;
-}
-
-.nav-item{
-    margin: 30px;
 }
 
 .nav-link{
@@ -47,15 +41,11 @@ body{
 }
 
 .navbar-nav .btn{
-    padding: 0;
     width: 140px;
 }
 
 .navbar-nav .btn a{
     border-radius: 15px;
-    border: 1px solid #486958;
-    text-align: center;
-    padding: 3px 36px;
 }
 
 .navbar-nav .btn a:hover{
