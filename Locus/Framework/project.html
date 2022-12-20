@@ -27,48 +27,48 @@
                 <a class="nav-link active" href="about_us.html">About us</a>
             </li>
             <li class="nav-item p-4 btn">
-                <a class="nav-link active p-1 text-black border" href="sing_up.html">Sing up</a>
+                <a class="nav-link active p-1 text-white" href="sing_up.html">Sing up</a>
             </li>
         </ul>
     </nav>
 
     <section class="p-3">
-        <header class="container text-center">
-            <h1 class="col align-self-center">Our project</h1>
-            <p class="col align-self-center">Introducing our first official project</p>
+        <header class="names text-center">
+            <h1 class="p-3">Our project</h1>
+            <span class="p-3">Introducing our first official project</span>
+            <hr id="line">
+            <hr id="line">
         </header>
-        <hr>
-        <hr>
-        <div>
-            <div>
+        <div class="projects row justify-content-start p-4">
+            <div class="col-4">
                 <span>Project Livingroom</span>
-                <p>A simple guide to create the perfect livingroom for. Night Watc works beautifully in a wide gamut of arrangements.</p>
-                <img src="images/image3.png">
+                <p class="text-secondary">A simple guide to create the perfect livingroom for. Night Watc works beautifully in a wide gamut of arrangements.</p>
+                <img class="col-11 p-3" src="images/image3.png">
             </div>
-            <div>
-                <img src="images/image4.png">
+            <div class="col-4">
+                <img class="col-11 p-3" src="images/image4.png">
                 <span>Project workspace</span>
-                <p>A simple guide to create the perfect livingroom for. Night Watc works beautifully in a wide gamut of arrangements.</p>
+                <p class="text-secondary">A simple guide to create the perfect livingroom for. Night Watc works beautifully in a wide gamut of arrangements.</p>
             </div>
-            <div>
+            <div class="col-4">
                 <span>Library</span>
-                <p>A simple guide to create the perfect livingroom for. Night Watc works beautifully in a wide gamut of arrangements.</p>
-                <img src="images/image5.png">
+                <p class="text-secondary">A simple guide to create the perfect livingroom for. Night Watc works beautifully in a wide gamut of arrangements.</p>
+                <img class="col-11 p-3" src="images/image5.png">
             </div>
         </div>
     </section>
 
     <hr>
 
-    <footer class="p-3">
-        <div>
+    <footer class="row p-4 justify-content-between">
+        <div class="contact p-2 col-3">
             <h1>Contact Us</h1>
-            <p>Have any questions? Want help before getting started?</p>
-            <hr>
-            <hr>
+            <p class="text-secondary">Have any questions? Want help before getting started?</p>
+            <hr id="line">
+            <hr id="line">
         </div>
-        <div>
-            <form action="#">
+        <div class="mail p-4 col-8">
+            <form>
                 <div>
                     <label for="name">Full name</label><br>
                     <input type="name">
@@ -82,7 +82,9 @@
                     <input type="text">
                 </div>
             </form>
-            <button>Send now</button>
+            <div class="p-3">
+                <button class="btn text-white">Send now</button>
+            </div>
         </div>
     </footer>
 </body>

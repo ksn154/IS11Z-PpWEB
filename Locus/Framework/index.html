@@ -27,7 +27,7 @@
                 <a class="nav-link active" href="about_us.html">About us</a>
             </li>
             <li class="nav-item p-4 btn">
-                <a class="nav-link active p-1 text-black border" href="sing_up.html">Sing up</a>
+                <a class="nav-link active p-1 text-white" href="sing_up.html">Sing up</a>
             </li>
         </ul>
     </nav>
@@ -35,7 +35,7 @@
     <header class="head row justify-content-center p-3">
         <div class="col-5">
             <h1>Get the inspiration of interior design here</h1>
-            <p>architecture not only about engineering, it even lands to art and aesthetics. With us, you will get a residentical design with an extraordinary touch of art.</p>
+            <p class="text-secondary">architecture not only about engineering, it even lands to art and aesthetics. With us, you will get a residentical design with an extraordinary touch of art.</p>
             <a class="btn text-white p-2" href="project.html">Let's Go</a>
         </div>
         <figure class="col-5">
@@ -45,65 +45,65 @@
     </header>
 
     <section class="p-3">
-        <header class="container text-center">
-            <h1 class="col align-self-center">How it works</h1>
-            <p class="col align-self-center">Spice up your space even simpler than you think</p>
+        <header class="names text-center p-2">
+            <h1 class="p-3">How it works</h1>
+            <span class="text-secondary p-3">Spice up your space even simpler than you think</span>
         </header>
-        <div>
-            <figure>
-                <img src="images/image1.png">
-                <div id="element"></div>
+        <div class="blok row justify-content-center p-3">
+            <figure class="row p-0 col-8">
+                <img class="p-0" src="images/image1.png">
+                <figcaption id="element"></figcaption>
             </figure>
-            <div>
+            <div class="blok_video col-2 p-5">
                 <p>We provide design and build for commercial building, interior and furniture to improve the better life.</p>
-                <a href="#">S E E V I D E O</a>
+                <a class="nav-link text-black" href="#">S E E V I D E O</a>
             </div>
         </div>
-        <div>
-            <img src="images/image2.png">
-            <div>
+        <div class="mission row">
+            <img class="col-5 p-3" src="images/image2.png">
+            <div class="col-6 p-5">
                 <span>Our mission is to deliver aesthetic visual for your home</span>
-                <p>By applying bacis psychology principles, we are going to explain how perception works and how we can use this understanding to maximise the space that we occupy in our homes.</p>
+                <p class="text-secondary">By applying bacis psychology principles, we are going to explain how perception works and how we can use this understanding to maximise the space that we occupy in our homes.</p>
             </div>
         </div>
     </section>
 
     <section class="p-3"> 
-        <header class="container text-center">
-            <h1 class="col align-self-center">Testimonial</h1>
+        <header class="names text-center p-3">
+            <h1>Testimonial</h1>
         </header>
-        <div>
-            <img src="images/klamby.png" alt="klamby">
-            <img src="images/mayoutfit.png" alt="mayoutfit">
-            <img src="images/zalora.png" alt="zalora">
-            <img src="images/geulis.png" alt="geulis">
+        <div class="row align-items-center">
+            <img class="col-3" src="images/klamby.png" alt="klamby">
+            <img class="col-3" src="images/mayoutfit.png" alt="mayoutfit">
+            <img class="col-3" src="images/zalora.png" alt="zalora">
+            <img class="col-3" src="images/geulis.png" alt="geulis">
         </div>
-        <div>
-            <figure>
-                <img src="images/image6.png">
-                <div id="element_two"></div>
+        <div class="information row">
+            <figure class="row justify-content-start col-5 p-3 gx-5">
+                <img class="p-0" src="images/image6.png">
+                <div class="p-0" id="element_two"></div>
             </figure>
-            <div>
-                <div>
-                    <span><p>105</p> project<br> done</span>
-                    <span><P>12</P> years of<br> experience</span>
-                    <span><p>10+</p> big company<br> partnership</span>
+            <div class="col-7 p-5">
+                <div class="row" id="text">
+                    <span class="col-3 p-5"><p>105</p> project<br> done</span>
+                    <span class="col-4 p-5"><P>12</P> years of<br> experience</span>
+                    <span class="col-5 p-5"><p>10+</p> big company<br> partnership</span>
                 </div>
-                <span>"</span>
-                <p>"Not able to tell you how happy I am with interior design. Interior design has completely surpassed our expectations. Interior design saved my business. Interior design is worth much more than I paid."</p>
-                <p>- Roscoe </p>
+                <span class="text-white" id="quotation">"</span>
+                <p id="roscoe">"Not able to tell you how happy I am with interior design. Interior design has completely surpassed our expectations. Interior design saved my business. Interior design is worth much more than I paid."</p>
+                <p id="roscoe">- Roscoe </p>
             </div>
         </div>
     </section>
 
-    <footer class="p-3">
-        <div>
+    <footer class="row p-4 justify-content-between">
+        <div class="contact p-2 col-3">
             <h1>Contact Us</h1>
-            <p>Have any questions? Want help before getting started?</p>
-            <hr>
-            <hr>
+            <span class="text-secondary">Have any questions? Want help before getting started?</span>
+            <hr id="line">
+            <hr id="line">
         </div>
-        <div>
+        <div class="mail p-4 col-8">
             <form>
                 <div>
                     <label for="name">Full name</label><br>
@@ -118,7 +118,9 @@
                     <input type="text">
                 </div>
             </form>
-            <button>Send now</button>
+            <div class="p-3">
+                <button class="btn text-white">Send now</button>
+            </div>
         </div>
     </footer>
 </body>

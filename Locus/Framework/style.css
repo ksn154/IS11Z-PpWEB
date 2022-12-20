@@ -4,6 +4,7 @@ body{
     font-family: 'Poppins', sans-serif;
     width: 1152px;
     margin: 0 auto;
+    font-style: normal;
 }
 
 .logo figure{
@@ -28,7 +29,6 @@ body{
 }
 
 .nav-link{
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 38px;
@@ -40,17 +40,10 @@ body{
     color: #58A9A5;
 }
 
-.navbar-nav .btn{
-    width: 180px;
-}
-
 .navbar-nav .btn a{
+    width: 140px;
     border-radius: 15px;
-}
-
-.navbar-nav .btn a:hover{
     background: #58A9A5;
-    color: white;
 }
 
 .head .btn{
@@ -58,7 +51,6 @@ body{
     border-style: none;
     background: #58A9A5;
     border-radius: 20px;
-    font-weight: 700;
     font-size: 15px;
     line-height: 38px;
 }
@@ -87,4 +79,180 @@ body{
     background: #CCF0E6;
     border-radius: 120px;
     z-index: -1;
+}
+
+#element{
+    position: absolute;
+    width: 1100px;
+    height: 250px;
+    background: #CCF0E6;
+    border-radius: 10px;
+    z-index: -1;
+}
+
+.blok figure img{
+    width: 733px;
+    height: 250px;
+}
+
+.blok_video{
+    width: 350px;
+}
+
+.names h1{
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 35px;
+}
+
+.names span{
+    width: 400px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.mission span{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 50px;
+}
+
+.mission p{
+    font-size: 20px;
+    line-height: 35px;    
+}
+
+.mission img{
+    border-radius: 25px;
+}
+
+section #line{
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+#line{
+    width: 135px;
+    border: 2px solid #58A9A5;
+    opacity: 1;
+}
+
+.information img{
+    border-radius: 10px 0 0 10px;
+}
+
+#element_two{
+    position: absolute;
+    width: 1150px;
+    height: 506px;
+    z-index: -1;
+    background: #CCF0E6;
+    border-radius: 10px;
+}
+
+#quotation{
+    position: absolute;
+    font-family: 'Port Lligat Sans';
+    font-weight: 400;
+    font-size: 250px;
+    line-height: 221px;
+    z-index: -1;
+    margin-top: -50px;
+    margin-left: -15px;
+}
+
+#text p{
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 5px;
+    color: #58A9A5;
+}
+
+#text span{
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 35px;
+    color: #58A9A5;
+}
+
+#roscoe{
+    width: 550px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 30px;
+    color: #486958;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+.projects span{
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 50px;
+    color: #58A9A5;
+}
+
+.projects p{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 30px;    
+}
+
+.info span{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.info p{
+    margin-top: 15px;
+}
+
+.partner span{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #486958;
+}
+
+label{
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 28px;
+    color: #486958;
+}
+
+input{
+    width: 700px;
+    border-style: none;
+    border-bottom: 1px solid #486958;
+    margin-bottom: 10px;
+}
+
+input:focus{
+    outline: none;
+}
+
+.mail{
+    border: 1px solid #486958;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.mail button{
+    width: 171px;
+    height: 50px;
+    background: #58A9A5;
+    border-radius: 20px;
+    border-style: none;
+    font-size: 15px;
+    line-height: 28px;
+}
+
+.contact h1{
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 35px;
 }
